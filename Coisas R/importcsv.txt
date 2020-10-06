@@ -1,0 +1,6 @@
+# Set the working directory
+setwd("F:/Dropbox/code/R")
+
+data <- read.csv(file="random.csv",head=TRUE,sep=",")
+
+data <- read.table("clipboard",head=TRUE,sep=",")

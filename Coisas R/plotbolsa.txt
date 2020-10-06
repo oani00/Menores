@@ -1,0 +1,6 @@
+# Set the working directory
+setwd("F:/Dropbox/code/R")
+
+bolsa <- read.csv(file="random.csv",head=TRUE,sep=",")
+
+plot(bolsa$ultimo,bolsa$Data)
